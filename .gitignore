@@ -32,3 +32,10 @@ test-results/
 *.sqlite3-shm
 *.sqlite3-journal
 !*.traineddata.gz
+
+# local runtime data and generated samples
+/data/
+/sample/
+/instance/
+*.pdpkg
+*.pdrec

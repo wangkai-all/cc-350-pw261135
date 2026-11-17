@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Launcher: generates sample source artefacts under Python isolated mode (-I).
+set -euo pipefail
+HERE="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+exec python3 -I "$HERE/../app/generator.py" "$@"
